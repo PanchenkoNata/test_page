@@ -12,7 +12,6 @@ $media_phone: 480px;
 
 * {
     box-sizing: border-box;
-    // font-family: 'Montserrat', sans-serif;
 }
 a {
     text-decoration: none;
@@ -39,7 +38,6 @@ html {
         background: #aaaaaa;
         background-image: url('../images/background_header.png');
         
-        
         .container {
             margin: 0 auto;
             max-width: 1170px;
@@ -53,9 +51,8 @@ html {
                 
                 @media screen and (max-width: #{$media_tablet}) {
                     flex-wrap: wrap;
-
                 }
-                
+
                 .logo {
                     margin: 15px 0; 
 
@@ -107,6 +104,7 @@ html {
                 display: flex;
                 flex-wrap: nowrap;
                 justify-content: space-between;
+
                 @media screen and (max-width: #{$media_tablet}) {
                     flex-wrap: wrap;
                 }
@@ -120,7 +118,6 @@ html {
                     @media screen and (max-width: #{$media_tablet}) {
                         width: 100%;
                     }
-                    
 
                     .about_line {
                         background-color: #c7c7c7;
@@ -214,6 +211,7 @@ html {
                         padding-left: 0;
                         width: 100%;
                         img {
+                            display: block;
                             margin: 0 auto;
                         }
                     }

@@ -258,6 +258,7 @@ html {
     width: 100%;
   }
   .wrapper .main .container .main_info .author_photo img {
+    display: block;
     margin: 0 auto;
   }
 }
