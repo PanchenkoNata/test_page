@@ -30,6 +30,7 @@ html {
   padding: 0 30px;
   background: #aaaaaa;
   background-image: url("../images/background_header.png");
+  background-size: cover;
 }
 
 .wrapper .main .container {
@@ -241,6 +242,8 @@ html {
 .wrapper .main .container .main_info .author_photo {
   width: 35%;
   padding-left: 30px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 
 @media screen and (max-width: 1410px) {
