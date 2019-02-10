@@ -1,0 +1,277 @@
+.Screen_1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 7937px;
+  z-index: 404;
+}
+.Date {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 7937px;
+  z-index: 402;
+}
+._30_марта_с_13:00_до_16:00 {
+  font-size: 24px;
+  font-family: "Montserrat";
+  color: rgb(220, 220, 220);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 825.498px;
+  top: 34.62px;
+  z-index: 401;
+}
+.locate {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 7937px;
+  z-index: 398;
+}
+.Киев__Большая_Житомирская__33 {
+  font-size: 24px;
+  font-family: "Montserrat";
+  color: rgb(220, 220, 220);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 769.937px;
+  top: 76.584px;
+  z-index: 397;
+}
+._38__044__35_36_0_36 {
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(190, 190, 190);
+  line-height: 1.2;
+  text-align: right;
+  position: absolute;
+  left: 1346.459px;
+  top: 38.349px;
+  z-index: 394;
+}
+._7__495__504_36_06 {
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(190, 190, 190);
+  line-height: 1.2;
+  text-align: right;
+  position: absolute;
+  left: 1363.458px;
+  top: 71.349px;
+  z-index: 393;
+}
+.Text_block {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 7937px;
+  z-index: 392;
+}
+.Живой_мастер_класс_Дмитрия_Карпачёва {
+  font-size: 24px;
+  font-family: "Montserrat";
+  color: rgb(237, 237, 237);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 373.96px;
+  top: 234.45px;
+  z-index: 391;
+}
+.Line_top {
+  background-color: rgb(199, 199, 199);
+  opacity: 0.302;
+  position: absolute;
+  left: 375px;
+  top: 318px;
+  width: 370px;
+  height: 3px;
+  z-index: 390;
+}
+.Как_дать_ребёнку_всё_без_связей_и_денег {
+  font-size: 58px;
+  font-family: "Montserrat";
+  color: rgb(237, 237, 237);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 370.938px;
+  top: 345.583px;
+  z-index: 389;
+}
+.Улучшите_отношения_с_детьми__и_будете_спокойны_ {
+  font-size: 24px;
+  font-family: "Montserrat";
+  color: rgb(237, 237, 237);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 374.844px;
+  top: 507.45px;
+  z-index: 388;
+}
+.Line_bottom {
+  background-color: rgb(199, 199, 199);
+  opacity: 0.302;
+  position: absolute;
+  left: 375px;
+  top: 599px;
+  width: 370px;
+  height: 3px;
+  z-index: 387;
+}
+.Автор_―_практикующий_психолог_и_телеведущий {
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(237, 237, 237);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 426.937px;
+  top: 632.198px;
+  z-index: 385;
+}
+._3_часа_проверенных_на_практике_рекомендаций {
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(237, 237, 237);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 427.212px;
+  top: 665.718px;
+  z-index: 383;
+}
+.Готовые_к_применению_инструкции {
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(237, 237, 237);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 427.87px;
+  top: 700.027px;
+  z-index: 381;
+}
+.Button {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 7937px;
+  z-index: 379;
+}
+.Arrow {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 7937px;
+  z-index: 378;
+}
+.Rectangle_4_copy_2 {
+  background-color: rgb(234, 235, 239);
+  position: absolute;
+  left: 801px;
+  top: 843px;
+  width: 9px;
+  height: 7px;
+  z-index: 377;
+}
+.Rectangle_4_copy {
+  background-color: rgb(234, 235, 239);
+  position: absolute;
+  left: 801px;
+  top: 839px;
+  width: 9px;
+  height: 6px;
+  z-index: 376;
+}
+.Rectangle_4 {
+  background-color: rgb(234, 235, 239);
+  position: absolute;
+  left: 770px;
+  top: 844px;
+  width: 40px;
+  height: 1px;
+  z-index: 375;
+}
+.Забронировать_участие {
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: right;
+  position: absolute;
+  left: 505.767px;
+  top: 832.072px;
+  z-index: 373;
+}
+.Rectangle_5 {
+  background-color: rgb(0, 0, 0);
+  box-shadow: -0.314px 5.992px 18px 0px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 475px;
+  top: 810px;
+  width: 370px;
+  height: 70px;
+  z-index: 372;
+}
+.backgroud {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 7937px;
+  z-index: 370;
+}
+.Karpacev_photo {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 7937px;
+  z-index: 369;
+}
+.karpachoff_shadow {
+  background-image: url("karpachoff shadow.png");
+  opacity: 0.031;
+  position: absolute;
+  left: 1155px;
+  top: 134px;
+  width: 514px;
+  height: 825px;
+  z-index: 367;
+}
+.Layer_12 {
+  background-image: url("Layer 12.png");
+  opacity: 0.102;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 1017px;
+  z-index: 363;
+}
+.Background {
+  background-image: url("Background.png");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 950px;
+  z-index: 362;
+}

@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+$text_size_base: 20px;
+$text_size_normal: 1.2 * $text_size_base;
+$text_size_h1: 2.9 * $text_size_base;
+
+$color_text_light: #ededed;
+
+$media_norm_desktop: 1410px;
+$media_tablet: 980px;
+$media_phone: 480px;
+
+* {
+    box-sizing: border-box;
+    // font-family: 'Montserrat', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+html {
+    font-size: $text_size_base;
+}
+
+.wrapper {
+    width: 100%;
+    font-family: "Montserrat", sans-serif;;
+    line-height: 1.2;
+    color: #{$color_text_light};
+    overflow: hidden;
+
+    .main {
+        padding: 0 30px;
+        background: #aaaaaa;
+        background-image: url('../images/background_header.png');
+        
+        
+        .container {
+            margin: 0 auto;
+            max-width: 1170px;
+
+            header {
+                padding-top: 40px;
+                padding-bottom: 18px;
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+                
+                @media screen and (max-width: #{$media_tablet}) {
+                    flex-wrap: wrap;
+
+                }
+                
+                .logo {
+                    margin: 15px 0; 
+
+                    @media screen and (max-width: #{$media_tablet}) {
+                        width: 70%;
+                    }
+                }
+                .locale {
+                    font-size: #{$text_size_normal};
+                    font-weight: bold;
+                    letter-spacing: 0.03em;
+                    text-align: center;
+                    margin: 0 30px;
+
+                    @media screen and (max-width: #{$media_tablet}) {
+                        order: 2;
+                        margin: 30px 0;
+                        width: 100%;
+                        text-align: left;
+                    }
+
+                    li {
+                        margin-bottom: 0.5em;
+
+                        img {
+                            height: #{1.1 * $text_size_base};
+                            margin-right: #{1.1 * $text_size_base};
+                            
+                            @media screen and (max-width: #{$media_norm_desktop}) {
+                                margin-right: #{0.5 * $text_size_base};
+                            }
+                        }
+                    }
+                }
+                .contacts {
+                    text-align: right;
+
+                    li {
+                        margin-bottom: 8px;
+                        
+                        a {
+                            color: #bebebe;
+                        }
+                    }
+                }
+            }
+
+            .main_info {
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+                @media screen and (max-width: #{$media_tablet}) {
+                    flex-wrap: wrap;
+                }
+
+                .about {
+                    width: 65%;
+
+                    @media screen and (max-width: #{$media_norm_desktop}) {
+                        width: 50%;
+                    }
+                    @media screen and (max-width: #{$media_tablet}) {
+                        width: 100%;
+                    }
+                    
+
+                    .about_line {
+                        background-color: #c7c7c7;
+                        opacity: 0.302;
+                        width: 370px;
+                        height: 3px;
+                        margin: 1.2rem 0;
+                    }
+                    .about_name {
+                        font-size: #{$text_size_normal};
+                        font-weight: bold;
+                        padding-top: 92px;
+
+                        @media screen and (max-width: #{$media_tablet}) {
+                            padding-top: 10px;
+                        }
+
+                        p {
+                            margin: 0.2em 0;
+                            letter-spacing: 0.03em;
+                        }
+                        .text_selected {
+                            color: #1089dc;
+                        }
+                    }
+                    h1 {
+                        font-size: #{$text_size_h1};
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        letter-spacing: 0.015em;
+                        margin-top: 0.5em;
+                        margin-bottom: 0.35em;
+
+                        @media screen and (max-width: #{$media_tablet}) {
+                            font-size: 36px;
+                        }
+                    }
+                    .intro {
+                        font-size: #{$text_size_normal};
+                        margin: 0.7em 0 1.4em;
+                    }
+                    .description {
+                        margin: 32px 0;
+                        padding-left: 2.2em;
+
+                        li {
+                            margin: 0.5em 0;
+                            list-style-image: url("../images/checkpoint_1.png");
+                            padding-left: 0.5em;
+                        }
+                    }
+                    .btn {
+                        padding-left: 1.7em;
+                        margin: 51px 0 51px 101px;
+                        position: relative;
+                        height: 70px;
+                        width: 370px;
+                        border-radius: 35px;
+                        background-color: #dd4510;
+                        border: none;
+                        box-shadow: -0.314px 5.992px 18px 0px rgba(0, 0, 0, 0.3);
+                        font-size: #{0.9 * $text_size_base};
+                        font-weight: bold;
+                        letter-spacing: 0.02em;
+                        text-align: left;
+                        color:#ffffff;
+
+                        @media screen and (max-width: #{$media_norm_desktop}) {
+                            margin-left: 50px;
+                        }
+
+                        span::after {
+                            display: inline-block;
+                            content: '\2192';
+                            position: absolute;
+                            left: 80%;
+                        }
+                    }   
+                }
+
+                .author_photo {
+                    width: 35%;
+                    padding-left: 30px;
+
+                    @media screen and (max-width: #{$media_norm_desktop}) {
+                        width: 50%;
+                        padding-left: 10%;
+                        align-self: flex-end;
+                    }
+                    @media screen and (max-width: #{$media_tablet}) {
+                        padding-left: 0;
+                        width: 100%;
+                        img {
+                            margin: 0 auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
